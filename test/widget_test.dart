@@ -26,7 +26,7 @@ void main() {
       findsOneWidget,
     );
 
-    // Verify the "Search" button exists in the hero section.//
+    // Verify the "Search" button exists in the hero section.
     expect(find.text('Search'), findsOneWidget);
 
     // Verify the featured homes section title is displayed.
